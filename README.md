@@ -22,7 +22,7 @@
 MERN E-commerce platform using Redux to manage global state instead of the
 Context API
 
-#### [react-redux-store.herokuapp](https://hb-react-redux-store.herokuapp.com/)
+#### [hb-redux-store.herokuapp.com](https://hb-redux-store.herokuapp.com/)
 
 ## 🎬 Screenshot
 
