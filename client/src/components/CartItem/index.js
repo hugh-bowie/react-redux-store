@@ -1,11 +1,12 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+//import { useStoreContext } from "../../utils/GlobalState";//------use if non-redux
+import { useDispatch } from 'react-redux';//------use if redux
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from '../../utils/actions';
 import { idbPromise } from '../../utils/helpers';
 
 const CartItem = ({ item }) => {
-	const dispatch = useDispatch();
-
+	const dispatch = useDispatch();//------ if redux
+ 	//const [, dispatch] = useStoreContext();//------use if non-redux
 	const removeFromCart = item => {
 		dispatch({
 			type: REMOVE_FROM_CART,
