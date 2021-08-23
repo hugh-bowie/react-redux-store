@@ -26,7 +26,7 @@ Context API
 
 ## 🎬 Screenshot
 
-![react-redux-store](./assets/react-redux-store.gif)
+![react-redux-store](./🛍️-Shop-Shop.gif)
 
 ## 🃏 User Story
 
