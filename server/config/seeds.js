@@ -18,12 +18,12 @@ db.once('open', async () => {
 
   const products = await Product.insertMany([
     {
-      name: 'Tin of Cookies',
+      name: 'Original Grind Cold Brew Coffee',
       description:
-        'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-      image: 'cookie-tin.jpg',
+        'FRESH COLD BREW ICED COFFEE –This large cold brew filter system creates up to 16 cups of rich, homemade coffee using your favorite grounds for unbeatable flavor.',
+      image: 'original-grind.jpg',
       category: categories[0]._id,
-      price: 2.99,
+      price: 39.99,
       quantity: 500
     },
     {
